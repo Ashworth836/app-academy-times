@@ -368,5 +368,5 @@ Now, it's on to the next step!
 [masthead borders nearly done]: https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/response-design-projects/aa-times/assets/masthead-borders-nearly-done.png
 [masthead border riser nearly done]: https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/response-design-projects/aa-times/assets/masthead-border-riser-almost-done.png
 [masthead complete]: https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-Responsive-Design/response-design-projects/aa-times/assets/masthead-complete.png
-[pesticide]: https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh
+[pesticide]: https://chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi
 [link to padding]: https://developer.mozilla.org/en-US/docs/Web/CSS/padding

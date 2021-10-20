@@ -77,14 +77,7 @@ ready to figure out that structure.
 In the head, link in the **main-styles.css** file. Don't forget to set the `rel`
 attribute to "stylesheet", otherwise the browser won't treat the CSS as CSS.
 If you don't get the value for the `href` property correct, it won't correctly
-load the style sheet and your styles won't show up. Take a moment to make sure
-it's loading properly. In your DevTools (they should be open), make sure you
-still have the Network tab chosen. Refresh your page. If you see a 200 next to
-the entry, then it's loading just fine! Great job!
-
-If you see that you are getting a 404 for **main-styles.css** in the list of
-files loaded, then you should know what that means: Not Found. The value for the
-`href` property needs to be _relative_ to the current page.
+load the style sheet and your styles won't show up.
 
 Most Web pages have a page header section, a main section, and a footer section.
 It doesn't hurt to always put those in there so that you can structure your

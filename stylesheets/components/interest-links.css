@@ -1,1 +1,76 @@
 /* Your code here */
+@media screen and (max-width: 1000px) {
+    div.interest {
+      display: none;
+    }
+  }
+  
+  .interest {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+    grid-template-rows: 1;
+    padding: 10px;
+    border-width: 2px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  .interest__links-img {
+    width: 75px;
+    height: 75px;
+    padding-left: 5px;
+  }
+  
+  .stocks {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #f7f7f5;
+    border-top: none;
+    border-bottom: none;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  
+  .interests-bar__stock-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+    border-bottom: 1px solid #f7f7f5;
+  }
+  
+  .interests-bar__price {
+    font-weight: bold;
+    color: green;
+  }
+  
+  #last-stock {
+    border-bottom: none;
+  }
+  
+  .text-container {
+    position: relative;
+    font-size: 11px;
+    justify-content: center;
+    border-right: 1px solid lightgrey;
+    padding: 0 5px 30px 15px;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  p.interest__item-title{
+    display: flex;
+    padding-bottom: 4px;
+    font-weight: 900;
+  }
+  
+  .weather {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }

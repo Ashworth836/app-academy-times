@@ -35,3 +35,7 @@
 .pref__section-link:hover {
   background-color: #dedede;
 }
+
+.pref--hidden{
+  display: none;
+}

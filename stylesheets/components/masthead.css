@@ -1,1 +1,92 @@
 /* Your code here */
+.masthead{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "menu-search . action"
+    ". technologies ."
+    "date logo paper";
+}
+
+.masthead__menu-and-search{
+    grid-area: menu-search;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.masthead__actions{
+    grid-area: action;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+}
+
+.masthead__technologies{
+    grid-area: technologies;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relatve;
+    top: 11px;
+    z-index: -1;
+}
+
+.masthead__date{
+    grid-area: date;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+
+.masthead__logo{
+    grid-area: logo;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 20px 0 11px 0;
+}
+
+.masthead__paper{
+    grid-area: paper;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+
+.menu-search,
+.settings{
+    font-size: 11px;
+    padding: 7px 9px;
+}
+
+.menu-search:hover,
+.settings:hover{
+    background-color: #f7f7f5;
+    border-radius: 7px;
+}
+
+.masthead__technologies .languages span{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #6f6f6f;
+    margin: 0 5px;
+}
+
+.masthead__technologies .languages{
+    border: 1px solid #e2e2e2;
+    border-bottom: none;
+    background-color: white;
+    position: relatve;
+}

@@ -1,1 +1,23 @@
 /* Your code here */
+.page__links{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.page__links li{
+    font-size: 12px;
+    margin: 0 5px;
+    padding: 8px;
+}
+.page__links li a{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 8px;
+    font-weight: 600;
+}
+
+.page__links li a:hover{
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}

@@ -8,3 +8,7 @@
   border-radius: 2px;
   padding: .4em;
 }
+
+.search-modal--hidden{
+  display: none;
+}
